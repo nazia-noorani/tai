@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_study_section"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/label_height"
+        android:text="@string/study_section"
+        style="@style/TextLabel"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/txt_bg"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rcycStudy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="horizontal"
+        android:padding="5dp">
+    </android.support.v7.widget.RecyclerView>
+
+    <TextView
+        android:id="@+id/tv_fun_section"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/label_height"
+        android:text="@string/fun_section"
+        style="@style/TextLabel" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/txt_bg"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rcycFun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="horizontal"
+        android:padding="5dp">
+    </android.support.v7.widget.RecyclerView>
+    <TextView
+        android:id="@+id/tv_editor"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/label_height"
+        android:text="@string/editors_pick"
+        style="@style/TextLabel" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/txt_bg"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rcycEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="horizontal"
+        android:padding="5dp">
+    </android.support.v7.widget.RecyclerView>
+</LinearLayout>
+ </ScrollView>

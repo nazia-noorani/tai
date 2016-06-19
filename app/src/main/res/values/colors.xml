@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="colorPrimary">#FFD454</color>
+    <color name="colorPrimaryDark">#000</color>
+    <color name="colorAccent">#B2FF59</color>
+
+    <color name="startup_bg">#FFD454</color>
+    <color name="txt_bg">#88000000</color>
+
+    <color name="button_bg_dark">#185259</color>
+    <color name="button_bg">#ff8533</color>
+
+    <color name="orange">#ff8533</color>
+    <color name="black">#000</color>
+    <color name="white">#FFF</color>
+    <color name="paper">#efefef</color>
+
+
+</resources>

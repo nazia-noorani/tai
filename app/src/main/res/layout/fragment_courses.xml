@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:layout_margin="10dp">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <android.support.v7.widget.AppCompatSpinner
+            android:layout_margin="10dp"
+            android:id="@+id/spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </android.support.v7.widget.AppCompatSpinner>
+
+        <SearchView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/searchView" />
+    </LinearLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ExpandableListView
+            android:id="@+id/listViewExp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"/>
+    <ProgressBar
+        android:id="@+id/progressBarDetails"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:indeterminate="true"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center_horizontal"
+
+        style="@android:style/Widget.ProgressBar"
+        android:visibility="visible" />
+
+    </FrameLayout>
+</LinearLayout>
